@@ -1,0 +1,22 @@
+package com.naver;
+
+public class MainEx {
+	
+	public static void main(String[] args) {
+		
+		String msg = "11";
+		String msg2 = "11";
+		String msg3 = "good";
+		String msg4 = "morning";
+		
+		System.out.println(msg);
+		System.out.println(msg2);
+		System.out.println(msg3);
+		System.out.println(msg4);
+		System.out.println(msg);
+		System.out.println(msg3);
+		System.out.println(msg2);
+		System.out.println(msg);
+	}
+
+}
