@@ -1,0 +1,33 @@
+package kr.co.ezen;
+
+import com.naver.Test;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		Test t1 = new Test();
+		
+		t1.me1();
+		t1.me2();
+		t1.me3();
+		t1.me4();
+		t1.me4(10);
+		
+		t1.dan(3);
+		
+		t1.isSossu(15);
+		
+		t1.me5();
+		t1.me5(1);
+		
+		t1.gugudan();
+		
+		t1.printStar();
+		t1.printStar(3);
+		
+		t1.me6();
+		
+		t1.halfDiamond();
+	}
+
+}
