@@ -1,0 +1,22 @@
+package com.naver;
+
+public class Cat {
+	public Cat() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void run() {
+		System.out.println(123);
+	
+	}
+	
+	public void sleep(String name, int hour) {
+		System.out.println(name + " " + hour + "½Ã");
+	}
+	
+	public String masterName(){
+		return "È«±æµ¿";
+		
+	}
+
+}

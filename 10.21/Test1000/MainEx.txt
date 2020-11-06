@@ -1,0 +1,35 @@
+package kr.co.ezen;
+
+
+import com.naver.Dog;
+import com.naver.Test11;
+
+
+public class MainEx {
+	public static void main(String[] args) {
+		
+		Test11 t12 = new Test11();
+		
+		boolean b1 = t12.getBoolean();
+		System.out.println(b1);
+		
+		char b2= t12.getChar();
+		System.out.println(b2);
+		
+		byte b3 = t12.getByte();
+		System.out.println(b3);
+		
+		short b4 = t12.getShort();
+		System.out.println(b4);
+		
+		int b5 = t12.getInt();
+		System.out.println(b5);
+		
+		long b6 = t12.getLong();
+		System.out.println(b6);
+		
+		Dog b7 = t12.getDog();
+		System.out.println(b7.getDog());
+	}
+
+}

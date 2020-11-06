@@ -1,0 +1,29 @@
+package com.naver;
+
+public class Dog {
+	public Dog() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Dog getDog() {
+		System.out.println("Dog 객체를 반환합니다.");
+		
+		return new Dog();
+	}
+	
+	public void run() {
+		System.out.println("달립니다");
+	}
+	
+	public void sleep(String where, int hour) {
+		System.out.println(where + " " + hour + "시간");
+	}
+	
+	public String getMasterName() {
+		return "홍길동";
+		
+	}
+	
+	
+
+}

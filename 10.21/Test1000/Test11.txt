@@ -1,0 +1,51 @@
+package com.naver;
+
+public class Test11 {
+	public Test11() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void stand() {
+		System.out.println("±â»ó");
+	}
+	
+	public void getUp(String name, int hour) {
+		System.out.println(name + " " + hour + "½Ã");
+	}
+	
+	public String giveMeTheMoney() {
+		return "µ·³»³ö";
+		
+		
+	}
+	
+	public boolean getBoolean() {
+		return false;
+	}
+	
+	public char getChar() {
+		return '±è';
+	}
+	
+	public byte getByte() {
+		return 5;
+	}
+	
+	public short getShort() {
+		return 22;
+	}
+	
+	public int getInt() {
+		return 100;
+	}
+	
+	public long getLong() {
+		return 150L;
+	}
+	
+	public Dog getDog() {
+		System.out.println("µµ±×");
+		return new Dog();
+	}
+
+}
