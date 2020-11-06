@@ -1,0 +1,54 @@
+package kr.co.ezen;
+
+public class Car {
+	
+	private String csn;
+	private String name;
+	private String juin;
+	private String number;
+	
+	public Car() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Car(String csn, String name, String juin, String number) {
+		super();
+		this.csn = csn;
+		this.name = name;
+		this.juin = juin;
+		this.number = number;
+	}
+
+	public String getCsn() {
+		return csn;
+	}
+
+	public void setCsn(String csn) {
+		this.csn = csn;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getJuin() {
+		return juin;
+	}
+
+	public void setJuin(String juin) {
+		this.juin = juin;
+	}
+
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	
+}
