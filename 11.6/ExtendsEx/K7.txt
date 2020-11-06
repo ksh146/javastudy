@@ -1,0 +1,19 @@
+package com.naver;
+
+public class K7 extends Car {
+
+	public K7() {
+		super();
+		run();
+	}
+
+	public K7(String model, String company, String price) {
+		super(model, company, price);
+	}
+
+	@Override
+	public void run() {
+		System.out.println("K7 클래스의 run()");
+	}
+
+}

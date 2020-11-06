@@ -1,0 +1,23 @@
+package com.naver;
+
+public class SM5 extends Car {
+	
+	public void me1() {
+		System.out.println(getModel());
+	}
+	
+	public SM5() {
+		super();
+		run();
+	}
+
+	public SM5(String model, String company, String price) {
+		super(model, company, price);		
+	}
+
+	@Override
+	public void run() {
+		System.out.println("SM5 클래스의 run()");
+	}
+		
+}

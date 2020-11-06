@@ -1,0 +1,19 @@
+package com.naver;
+
+public class BMW extends Car {
+
+	public BMW() {
+		super();
+		run();
+	}
+
+	public BMW(String model, String company, String price) {
+		super(model, company, price);
+	}
+
+	@Override
+	public void run() {
+		System.out.println("BMW 클래스의 run()");
+	}
+		
+}
